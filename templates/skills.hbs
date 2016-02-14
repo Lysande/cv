@@ -1,3 +1,27 @@
-<div class="">
-  this is a template
+<h2>{{title}}</h2>
+
+{{#each this}}
+  <div class="twelve columns">
+
+  <div class="skill row">
+    <div class="two columns skill__name">
+      {{this.name}}
+    </div>
+
+    <div class="two columns skill__label">
+      <span class="">Sedan <strong>{{this.since}}</strong></span>
+    </div>
+<!--
+
+<div class="one columns skill__level">
+  <span>{{this.level}} - 5</span>
 </div>
+-->
+    <div class="eight columns skill__description">
+      {{this.description}}
+    </div>
+  </div>
+
+      <hr class="skill__divider">
+</div>
+{{/each}}

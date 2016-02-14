@@ -34,6 +34,19 @@
     "work_experience":
     [
       {
+        "where": "Motillo",
+      "from": {
+        "year": 2015,
+        "month": 11
+      },
+      "to": {
+        "year": 2016,
+        "month": 1
+      },
+      "role": "Webbutvecklare",
+      "description": "I huvudsak frontendutveckling av en extern webbplats riktad mot slutkonsumenter och återförsäljare, med anpassningar av, och integrationer mot, .Net-baserad e-handelsplattform."
+    },
+      {
         "where": "Ninetech",
         "from": {
           "year": 2015,
@@ -45,19 +58,6 @@
         },
         "role": "Praktik",
         "description": "Frontendutveckling av en webbapplikationsprototyp skriven i SASS och JavaScript tillsammans med React som integrerade mot ett REST-api för ett existerande orderhanteringssystem, med särskilda krav på hantering av nätverksförlust och användarvänlighet."
-      },
-      {
-        "where": "Motillo",
-        "from": {
-          "year": 2015,
-          "month": 11
-        },
-        "to": {
-          "year": 2016,
-          "month": 1
-        },
-        "role": "Webbutvecklare",
-        "description": "I huvudsak frontendutveckling av en extern webbplats riktad mot slutkonsumenter och återförsäljare, med anpassningar av, och integrationer mot, .Net-baserad e-handelsplattform."
       }
     ],
     "skills":
@@ -75,7 +75,7 @@
         "description": "Inklusive verktyg som SASS och LESS, och ramverk som Bootstrap, Foundation, Skeleton m.m."
       },
       {
-        "name": "JavaScript",
+        "name": "JS",
         "since": 2014,
         "level": 4,
         "description": "Inklusive verktyg som NPM och Gulp med egna taskchains, och ramverk som React, jQuery, Underscore och ES2015."
@@ -108,7 +108,7 @@
         "name": "Git",
         "since": 2015,
         "level": 3,
-        "description": "Inklusive feature branch workflow."
+        "description": ""
       }
     ]
 }

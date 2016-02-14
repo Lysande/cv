@@ -1,0 +1,13 @@
+<h2>{{title}}</h2>
+
+
+{{#each this}}
+  <div class="twelve columns work">
+    <div class=" row">
+      <span class="six columns work__where">{{this.where}}</span>
+      <span class="six columns work__role">{{this.role}}</span>
+      <span class="twelve columns work__date">{{this.from}} - {{this.to}}</span>
+      <p class="twelve columns work__description">{{this.description}}</p>
+    </div>
+  </div>
+{{/each}}

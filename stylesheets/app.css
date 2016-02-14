@@ -1,3 +1,6 @@
+
+@media screen {
+
 html, body
 {
   width: 100%;
@@ -7,41 +10,133 @@ html, body
 
 body
 {
-  font-size: 32px;
+  font-size: 16px;
   background: #bbccdd
 }
 
 article
 {
   background: white;
-  padding: 1rem;
-  width: 90%;
   margin-top: 2rem !important;
   border: 1px solid #9ab;
+  padding: 0 4rem 4rem !important;
+  margin-bottom: 2rem !important;
+  box-shadow: 0 1px 5px #678
 }
 
 header
 {
-  padding: 0 2em;
 }
 
 h1
 {
   font-size: 6rem;
-  font-family: "Roboto", georgia, sans-serif;
+  font-family:  georgia, sans-serif;
   font-weight: 300;
   text-align: left;
+  padding-right: 50%;
   text-transform: uppercase;
 }
 
-.introduction
+h2
 {
+  font-family:  "roboto slab", arial, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
 
-}
-.introduction__email
+p,
+span
 {
-  text-align: center;
+  font-family: "roboto", arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
+
+
+.skill
+{
+  margin-bottom: 1rem;
+
+  border: 1px solid black
+}
+
+.skill__name
+{
+  padding: 1rem;
+  color: white;
+  height: 100%;
+  background: black;
+  font-family: "roboto", arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.skill__label
+{
+  font-size: 1.2rem;
+  padding-top: 1rem;
+}
+
+.skill__description
+{
+  font-style: italic;
+  padding-top: .5rem;
+      padding-right: 1rem;
+}
+.skill__divider
+{
+  display: none;
+}
+
+.work:not(:last-child),
+.education:not(:last-child)
+{
+  border-top: 1px solid black;
+  padding-top: 1rem;
+}
+.work,
+.education
+{
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+}
+
+.education__name,
+.work__where
+{
+  font-size: 1.3rem;
+  font-weight: 800;
+
+  letter-spacing: 2px;
+}
+.work__date,
+.education__date
+{
+  font-style: italic;
+  font-size: 1rem;
+  margin-top: .5rem
+}
+.work__description,
+.education__description
+{
+  padding-left: 1rem;
+}
+
+.work__role,
+.education__where
+{
+  text-align: right;
+}
+.education__name
+{
+  letter-spacing: 0;
+  word-wrap: break-word;
+}
+
 
 .left
 {
@@ -107,6 +202,7 @@ h1
   bottom: 0;
 }
 
+}
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*

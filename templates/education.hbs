@@ -1,1 +1,12 @@
-<h1>{title}</h1>
+<h2>{{title}}</h2>
+
+{{#each this}}
+  <div class="twelve columns education">
+    <div class="row ">
+      <span class="eight columns education__name">{{this.name}}</span>
+      <span class="four columns education__where">{{this.school}}</span>
+      <span class="twelve columns education__date">{{this.from}} - {{this.to}}</span>
+      <p class="twelve columns education__description">{{this.description}}</p>
+    </div>
+  </div>
+{{/each}}
