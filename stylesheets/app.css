@@ -1,0 +1,133 @@
+html, body
+{
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body
+{
+  font-size: 32px;
+  background: #bbccdd
+}
+
+article
+{
+  background: white;
+  padding: 1rem;
+  width: 90%;
+  margin-top: 2rem !important;
+  border: 1px solid #9ab;
+}
+
+header
+{
+  padding: 0 2em;
+}
+
+h1
+{
+  font-size: 6rem;
+  font-family: "Roboto", georgia, sans-serif;
+  font-weight: 300;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.introduction
+{
+
+}
+.introduction__email
+{
+  text-align: center;
+}
+
+.left
+{
+  float: left;
+}
+.right
+{
+  float: right;
+}
+
+.utility__full-width
+{
+  width: 100%;
+}
+.utility__fullsize
+{
+  width: 100%;
+  height: 100%;
+}
+
+.topbar
+{
+  width: 100%;
+  background: purple;
+  position: fixed;
+  top: 0;
+}
+
+.menu
+{
+  text-align: center;
+  position: relative;
+  margin: 0;
+}
+
+.menu__item
+{
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.menu__item:not(:first-child)
+{
+  margin-left: 2rem;
+}
+
+
+.menu__link
+{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+.menu__underline
+{
+  border-top: 1px solid white;
+  position: absolute;
+  left: 300px;
+  bottom: 0;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

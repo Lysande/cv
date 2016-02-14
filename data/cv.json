@@ -1,0 +1,114 @@
+{
+    "personal_details":
+    {
+        "name": "Emil Johnsen",
+        "address":
+        {
+          "street": ["Storgatan 31"],
+          "postalCode": 65530,
+          "city": "Kil"
+        },
+        "email": "johnsen.emil@gmail.com",
+        "phone": "0702642882",
+        "photo": ""
+    },
+    "education":
+    [
+      {
+        "school": "Karlstads Universitet",
+        "from": "2011",
+        "to": "2012",
+        "name": "Media- och kommunikationsvetenskap: Visuell kommunikation och design",
+        "description": "Media- och kommunikationsvetenskapligt program med inriktning på historieberättande genom bild, innefattandes bland annat vetenskapslära, kritisk läsning och semiotik, men också studier kring ämnen som organisationslära och interaktivitet.",
+        "degree": ""
+      },
+      {
+        "school": "Karlstads Universitet",
+        "from": "2013",
+        "to": "2015",
+        "name": "IT-Design: Systemdesign",
+        "description": "Informatikprogram med fokus på affärssystem och programmering, från kundkrav till implementation. Programmering, modellering, agila projekt och datakommunikation i huvudsak.",
+        "degree": ""
+      }
+    ],
+    "work_experience":
+    [
+      {
+        "where": "Ninetech",
+        "from": {
+          "year": 2015,
+          "month": 0
+        },
+        "to": {
+          "year": 2015,
+          "month": 5
+        },
+        "role": "Praktik",
+        "description": "Frontendutveckling av en webbapplikationsprototyp skriven i SASS och JavaScript tillsammans med React som integrerade mot ett REST-api för ett existerande orderhanteringssystem, med särskilda krav på hantering av nätverksförlust och användarvänlighet."
+      },
+      {
+        "where": "Motillo",
+        "from": {
+          "year": 2015,
+          "month": 11
+        },
+        "to": {
+          "year": 2016,
+          "month": 1
+        },
+        "role": "Webbutvecklare",
+        "description": "I huvudsak frontendutveckling av en extern webbplats riktad mot slutkonsumenter och återförsäljare, med anpassningar av, och integrationer mot, .Net-baserad e-handelsplattform."
+      }
+    ],
+    "skills":
+    [
+      {
+        "name": "HTML",
+        "since": 2005,
+        "level": 5,
+        "description": ""
+      },
+      {
+        "name": "CSS",
+        "since": 2006,
+        "level": 5,
+        "description": "Inklusive verktyg som SASS och LESS, och ramverk som Bootstrap, Foundation, Skeleton m.m."
+      },
+      {
+        "name": "JavaScript",
+        "since": 2014,
+        "level": 4,
+        "description": "Inklusive verktyg som NPM och Gulp med egna taskchains, och ramverk som React, jQuery, Underscore och ES2015."
+      },
+      {
+        "name": "PHP",
+        "since": 2010,
+        "level": 3,
+        "description": ""
+      },
+      {
+        "name": "Java",
+        "since": 2013,
+        "level": 3,
+        "description": ""
+      },
+      {
+        "name": "C#",
+        "since": 2015,
+        "level": 2,
+        "description": ""
+      },
+      {
+        "name": "Ruby",
+        "since": 2015,
+        "level": 1,
+        "description": ""
+      },
+      {
+        "name": "Git",
+        "since": 2015,
+        "level": 3,
+        "description": "Inklusive feature branch workflow."
+      }
+    ]
+}
