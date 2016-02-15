@@ -113,6 +113,12 @@
         "description": ""
       },
       {
+        "name": "SQL",
+        "since": 2010,
+        "level": 3,
+        "description": ""
+      },
+      {
         "name": "Git",
         "since": 2015,
         "level": 3,
