@@ -29,6 +29,14 @@
         "name": "IT-Design: Systemdesign",
         "description": "Informatikprogram med fokus på affärssystem och programmering, från kundkrav till implementation. Programmering, modellering, agila projekt och datakommunikation i huvudsak.",
         "degree": ""
+      },
+      {
+        "school": "FUGIK",
+        "from": "2008",
+        "to": "2011",
+        "name": "Estetiska programmet, inriktning design",
+        "description": "Gymnasieutbildning i design, av alla möjliga slag, med särskild inriktning på grafisk design och webbdesign.",
+        "degree": "Gymnasieexamen"
       }
     ],
     "work_experience":
@@ -108,6 +116,18 @@
         "name": "Git",
         "since": 2015,
         "level": 3,
+        "description": ""
+      },
+      {
+        "name": "Adobe Photoshop",
+        "since": 2007,
+        "level": 3,
+        "description": ""
+      },
+      {
+        "name": "Adobe Illustrator",
+        "since": 2008,
+        "level": 4,
         "description": ""
       }
     ]
