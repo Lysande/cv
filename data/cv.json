@@ -4,8 +4,8 @@
         "name": "Emil Johnsen",
         "address":
         {
-          "street": ["Storgatan 31"],
-          "postalCode": 65530,
+          "street": "Storgatan 31",
+          "postalCode": "665 30",
           "city": "Kil"
         },
         "email": "johnsen.emil@gmail.com",
@@ -42,18 +42,31 @@
     "work_experience":
     [
       {
+        "where": "Noboxsolutions",
+        "from": {
+          "year": 2016,
+          "month": 03
+        }, 
+        "to": {
+          "year": "", 
+          "month": ""
+        },
+        "role": "Webbutvecklare",
+        "description": "Webbutveckling av kundsajter, i huvudsak i Wordpress och PHP. Förvaltning av befintliga sajter samt front- och backendutveckling av nya."
+      },
+      {
         "where": "Motillo",
-      "from": {
-        "year": 2015,
-        "month": 11
+        "from": {
+          "year": 2015,
+          "month": 11
+        },
+        "to": {
+          "year": 2016,
+          "month": 1
+        },
+        "role": "Webbutvecklare",
+        "description": "I huvudsak frontendutveckling av en extern webbplats riktad mot slutkonsumenter och återförsäljare, med anpassningar av, och integrationer mot, .Net-baserad e-handelsplattform."
       },
-      "to": {
-        "year": 2016,
-        "month": 1
-      },
-      "role": "Webbutvecklare",
-      "description": "I huvudsak frontendutveckling av en extern webbplats riktad mot slutkonsumenter och återförsäljare, med anpassningar av, och integrationer mot, .Net-baserad e-handelsplattform."
-    },
       {
         "where": "Ninetech",
         "from": {
