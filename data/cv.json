@@ -4,8 +4,8 @@
         "name": "Emil Johnsen",
         "address":
         {
-          "street": ["Storgatan 31"],
-          "postalCode": 65530,
+          "street": "Storgatan 31",
+          "postalCode": "665 30",
           "city": "Kil"
         },
         "email": "johnsen.emil@gmail.com",
