@@ -4,8 +4,8 @@
         "name": "Emil Johnsen",
         "address":
         {
-          "street": ["Storgatan 31"],
-          "postalCode": 65530,
+          "street": "Storgatan 31",
+          "postalCode": "665 30",
           "city": "Kil"
         },
         "email": "johnsen.emil@gmail.com",
@@ -84,12 +84,6 @@
     "skills":
     [
       {
-        "name": "Rust",
-        "since": 2016,
-        "level": 1,
-        "description": ""
-      },
-      {
         "name": "HTML",
         "since": 2005,
         "level": 5,
@@ -141,18 +135,6 @@
         "name": "Git",
         "since": 2015,
         "level": 3,
-        "description": ""
-      },
-      {
-        "name": "Adobe Photoshop",
-        "since": 2007,
-        "level": 3,
-        "description": ""
-      },
-      {
-        "name": "Adobe Illustrator",
-        "since": 2008,
-        "level": 4,
         "description": ""
       }
     ]
