@@ -45,10 +45,10 @@
         "where": "Noboxsolutions",
         "from": {
           "year": 2016,
-          "month": 03
-        }, 
+          "month": 3
+        },
         "to": {
-          "year": "", 
+          "year": "",
           "month": ""
         },
         "role": "Webbutvecklare",
@@ -135,18 +135,6 @@
         "name": "Git",
         "since": 2015,
         "level": 3,
-        "description": ""
-      },
-      {
-        "name": "Adobe Photoshop",
-        "since": 2007,
-        "level": 3,
-        "description": ""
-      },
-      {
-        "name": "Adobe Illustrator",
-        "since": 2008,
-        "level": 4,
         "description": ""
       }
     ]

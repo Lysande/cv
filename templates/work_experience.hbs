@@ -1,13 +1,25 @@
-<h2>{{title}}</h2>
+
+<div class="work panel">
+<table>
+	<thead>
+		<tr>
+			<td class="work__where">Plats</td>
+			<td class="work__role">Roll</td>
+			<td class="work__from">Från</td>
+			<td class="work__to">Till</td>
+		</tr>
+	</thead>
+	<tbody>
+	{{#each this}}
+		<tr>
+		<td>{{this.where}}</td>
+		<td>{{this.role}}</td>
+		<td>{{this.from}}</td>
+		<td>{{this.to}}</td>
+		</tr>
+	{{/each}}
+	</tbody>
+</table>	
 
 
-{{#each this}}
-  <div class="twelve columns work">
-    <div class=" row">
-      <span class="six columns work__where">{{this.where}}</span>
-      <span class="six columns work__role">{{this.role}}</span>
-      <span class="twelve columns work__date">{{this.from}} - {{this.to}}</span>
-      <p class="twelve columns work__description">{{this.description}}</p>
-    </div>
-  </div>
-{{/each}}
+</div>
